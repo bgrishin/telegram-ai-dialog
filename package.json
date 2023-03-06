@@ -1,0 +1,24 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot-1.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot-1.js",
+    "dev": "nodemon bot-1.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "duck-duck-scrape": "^2.2.3",
+    "html-to-text": "^9.0.4",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.4"
+  }
+}
